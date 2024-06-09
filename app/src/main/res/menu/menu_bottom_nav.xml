@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/exerciseB"
+        android:title="운동"
+        android:icon="@drawable/ic_exercise"
+        >
+    </item>
+    <item
+        android:id="@+id/mealRecommend"
+        android:title="식단"
+        android:icon="@drawable/ic_meal">
+    </item>
+    <item
+        android:id="@+id/home"
+        android:title="홈"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/mypage"
+        android:title="마이"
+        android:icon="@drawable/ic_my"/>
+
+
+</menu>

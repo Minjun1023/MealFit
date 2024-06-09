@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".exerciseF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ADB2D8">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="352dp"
+            android:text="운동"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="9dp"
+            android:background="#F8F8F8"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="144dp"
+            android:text="오늘 한 운동을 선택해 보세요\n 터치한 횟수만큼 칼로리가 계산돼요"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+            <Button
+                android:id="@+id/addridebike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="자전거타기 / 1H / 500kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/biketext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addrun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="달리기 / 1H / 600kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/runtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addtennis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="테니스 / 1H / 400kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tennistext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="에어로빅 / 1H / 360kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/airtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addskating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="스케이팅 / 1H / 420kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/skatingtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addski"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="스키 / 1H / 500kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/skitext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addclimbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="등산 / 1H / 780kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/climbingtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addgolf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="골프 / 1H / 300kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/golftext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/addswim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#455DE4"
+                android:text="수영 / 1H / 720kcal"
+                android:textColor="#F8F8F8"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/swimtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
