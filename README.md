@@ -25,7 +25,18 @@
 ### 5. 기록 관리 및 프로필
 - **프로필** 탭에서 입력한 개인 정보를 한눈에 볼 수 있습니다.
 - **기록** 탭에서는 달력 형태로 일일 운동 및 식단 기록을 관리하고 확인할 수 있습니다.
+  
+💻 기술 스택
 
+개발 환경: Android Studio
+
+언어: Java
+
+데이터베이스: MySQL
+
+데이터: 공공데이터포털 공공데이터 이용
+
+UI/UX: Material Design
 <img width="382" height="848" alt="image" src="https://github.com/user-attachments/assets/f5b9a57e-bb7f-4b4e-b0a8-eda197c6eac1" />
 <img width="383" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf83910-1944-4252-bfe5-d572b83e02b5" />
 <img width="383" height="850" alt="image" src="https://github.com/user-attachments/assets/c22c3b45-88d5-4210-bfa6-d4338cd83880" />
