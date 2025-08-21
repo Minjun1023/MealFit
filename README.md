@@ -37,6 +37,8 @@
 데이터: 공공데이터포털 공공데이터 이용
 
 UI/UX: Material Design
+
+📸 앱 스크린샷
 <img width="382" height="848" alt="image" src="https://github.com/user-attachments/assets/f5b9a57e-bb7f-4b4e-b0a8-eda197c6eac1" />
 <img width="383" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf83910-1944-4252-bfe5-d572b83e02b5" />
 <img width="383" height="850" alt="image" src="https://github.com/user-attachments/assets/c22c3b45-88d5-4210-bfa6-d4338cd83880" />
